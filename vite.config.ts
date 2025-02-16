@@ -9,6 +9,7 @@ export default defineConfig({
     vue(),
     vuetify()
   ],
+  base: "/kanban-board/",
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src')

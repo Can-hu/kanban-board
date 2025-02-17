@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-font: 'Quicksand', sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+.kanban-board {
+  font-family: var(--primary-font);
+}
+
+.kanban-card {
+  font-family: var(--primary-font);
+}
+
+.v-application {
+  font-family: var(--primary-font) !important;
+}
+
+.v-card-title,
+.v-card-text,
+.v-btn,
+.v-text-field input,
+.v-textarea textarea {
+  font-family: var(--primary-font) !important;
+}
+
